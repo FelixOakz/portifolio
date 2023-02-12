@@ -337,18 +337,6 @@ h6 {
   }
 }
 
-
-
-
-.vertical {
-  margin-top: 40px;
-  border-left: 1px solid #fff;
-  height: 80px;
-  position: absolute;
-  left: 50%;
-}
-
-
 /*--------------- footer section --------------- */
 .collab {
   text-align: right;
@@ -484,7 +472,7 @@ hr {
 
 /*--------------- work page --------------- */
 
-.project:hover {
+.projectimg:hover {
   cursor: pointer;
   background-color: #333;
   color: #fff;
