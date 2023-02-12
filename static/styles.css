@@ -309,12 +309,15 @@ nav #menu li a:hover {
 }
 
 /*--------------- projects section --------------- */
-h4 {
+.container-fluid h4 {
   text-align: center;
+  font-size: 3rem !important;
 }
 
 h6 {
   text-align: center;
+  color: #797676;
+  size: 20rem;
 }
 
 #github {
@@ -655,9 +658,8 @@ hr {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #484747;
   padding: 10px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .projects a {
@@ -665,4 +667,15 @@ hr {
   align-items: center;
   justify-content: center;
   margin: 10px;
+}
+
+.projects a:nth-child(7) {
+  transform: rotate(-35deg);
+  position: relative;
+  left: -10px;
+  top: 19px;
+}
+
+.projects a:nth-child(5) {
+  filter: invert(70%);
 }
