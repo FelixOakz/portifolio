@@ -493,7 +493,6 @@ hr {
 }
 
 .hero-content img {
-  margin-bottom: 2rem;
   object-fit: cover;
   width: 100%;
   height: 40%;
